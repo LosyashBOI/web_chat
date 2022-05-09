@@ -1,0 +1,29 @@
+{
+  "name": "web_chat",
+  "version": "1.0.0",
+  "description": "web chat",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LosyashBOI/web_chat.git"
+  },
+  "keywords": [
+    "web",
+    "chat"
+  ],
+  "author": "losyashboi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LosyashBOI/web_chat/issues"
+  },
+  "homepage": "https://github.com/LosyashBOI/web_chat#readme",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "js-cookie": "^3.0.1"
+  }
+}

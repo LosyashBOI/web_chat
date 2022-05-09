@@ -1,0 +1,167 @@
+body {
+  background-color: #e5e5e5;
+  font-family: Roboto, sans-serif;
+}
+
+.chat {
+  width: 320px;
+  height: 533px;
+  margin: 20px auto auto;
+  position: relative;
+}
+
+.chat__container {
+  width: 320px;
+  background-color: #fff;
+  padding: 8px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.btn {
+  font-weight: inherit;
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  padding: 0;
+}
+
+.input, .btn_chat {
+  border: 1px solid #000;
+  padding: 6px 8px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.chat__top {
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+.chat__middle {
+  width: 304px;
+  height: 437px;
+  border: 1px solid #000;
+  margin-bottom: 8px;
+  overflow-y: scroll;
+}
+
+.chat__output {
+  flex-flow: column wrap;
+  justify-content: end;
+  padding: 8px;
+}
+
+.message {
+  max-width: 270px;
+  padding: 8px;
+}
+
+.message:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.message__text {
+  max-width: 270px;
+  word-wrap: break-word;
+  margin-bottom: 4px;
+}
+
+.message_delivered {
+  background: #e5e5e5;
+}
+
+.message_sent {
+  background: #f7f7f7;
+}
+
+.message__time {
+  text-align: end;
+  color: #333;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 16px;
+  display: block;
+}
+
+.message_me {
+  align-self: end;
+}
+
+.message_companion {
+  align-self: start;
+}
+
+.chat__form {
+  justify-content: space-between;
+}
+
+.input_message {
+  width: 267px;
+}
+
+.modal {
+  width: inherit;
+  height: inherit;
+  background: #5353539c;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.modal__element {
+  width: 273px;
+  height: 319px;
+  background-color: #fff;
+  margin: 108px 24px;
+  padding: 14px;
+  display: none;
+}
+
+.modal__top {
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.modal__title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.btn_close-modal {
+  width: 14px;
+  height: 14px;
+  opacity: .45;
+  font-size: 24px;
+  line-height: 70%;
+  transform: rotate(-45deg);
+}
+
+.chat-name {
+  margin-bottom: 8px;
+}
+
+.settings__form {
+  justify-content: space-between;
+}
+
+.input_settings {
+  width: 207px;
+}
+
+.input_confirmation, .input_authorization {
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+.form-title {
+  margin-bottom: 3px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+/*# sourceMappingURL=index-chat.7d06688f.css.map */
