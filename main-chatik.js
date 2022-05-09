@@ -127,7 +127,7 @@ function getOlderMessages() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    showMessageHistory(20, true);
+    showMessageHistory(20);
 });
 UI_ELEMENTS.SETTINGS_BUTTON.addEventListener('click', openSettings);
 UI_ELEMENTS.LOG_OUT_BUTTON.addEventListener('click', logOut);
